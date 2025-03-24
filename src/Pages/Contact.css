@@ -1,4 +1,3 @@
-/* Contact.css */
 .contact {
     text-align: center;
     padding: 50px 20px;
@@ -11,15 +10,13 @@
     font-family: Arial, sans-serif;
   }
   
-  /* Headings */
   .contact h1 {
     font-size: 36px;
-    color: #2c3e50; /* Matches theme */
+    color: #2c3e50;
     font-weight: bold;
     margin-bottom: 15px;
   }
   
-  /* Paragraph */
   .contact > p {
     font-size: 18px;
     color: #555;
@@ -27,7 +24,6 @@
     line-height: 1.6;
   }
   
-  /* Form */
   .contact form {
     display: flex;
     flex-direction: column;
@@ -63,7 +59,7 @@
   
   .contact input:focus,
   .contact textarea:focus {
-    border-color: #3498db; /* Matches theme accent */
+    border-color: #3498db;
   }
   
   .contact textarea {
@@ -71,10 +67,9 @@
     resize: vertical;
   }
   
-  /* Submit Button */
   .contact button {
     padding: 12px;
-    background-color: #3498db; /* Matches theme accent */
+    background-color: #3498db;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -86,17 +81,15 @@
   
   .contact button:hover {
     background-color: #2980b9;
-    transform: translateY(-2px); /* Slight lift on hover */
+    transform: translateY(-2px);
   }
   
-  /* Contact Info */
   .contact > div {
     font-size: 18px;
     color: #555;
     margin-top: 30px;
   }
   
-  /* Responsive Design */
   @media (max-width: 768px) {
     .contact {
       padding: 30px 15px;
